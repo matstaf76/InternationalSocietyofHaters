@@ -12,7 +12,6 @@
     <p class="tagline">Everyone and Everything is fair game. </p>
     <nav>
       <a href="#about">About</a>
-      <a href="#roasts">Roast Archive</a>
       <a href="#submit">Submit a Roast</a>
       <a href="#videos">Videos</a>
     </nav>
@@ -34,7 +33,7 @@
         Look at you.
       </p>
       <p>
-        Lighten up. You look like you're used to being made fun of. If not, we will get you used to it.
+        You look like you're used to being made fun of. If not, you should be so we will get you used to it.
       </p>
     </section>
 
@@ -42,9 +41,22 @@
       <h2>🔥 Today’s Featured Roast</h2>
       <div class="featured-box">
         <p><em>"Your browser history called it wants to know why you're still using Internet Explorer in 2025."</em></p>
-        <p><em>"Your browser history called it wants to know why  ."</em></p>
+        <p><em>"Your browser history called it wants to be deleted. It can't handle it anymore ."</em></p>
         <p><em>"Your browser history called THE POLICE AND FBI. Then a trauma counselor."</em></p>
       </div>
+    </section>
+
+    <!-- INSULT GENERATOR -->
+    <section id="generator" class="section">
+      <h2>🎯 Instant Insult Generator</h2>
+
+      <button id="generateInsultBtn"
+        style="padding: 0.8rem 1.4rem; border-radius: 8px; background: #ff0055; 
+               border: none; color: #fff; font-size: 1.1rem; cursor: pointer;">
+        Generate Insult
+      </button>
+
+      <p id="insultOutput" style="margin-top: 1.5rem; font-size: 1.3rem; min-height: 40px;"></p>
     </section>
 
     <section id="videos" class="section">
@@ -57,10 +69,12 @@
       <h2>Submit Your Roast</h2>
       <p>Drop your funniest roast here. A box will go here later with GitHub integration.</p>
     </section>
+
   </main>
 
   <footer>
     <p>© 2025 International Society of Haters  All rights reserved.</p>
   </footer>
+  <script src="insult-generator.js"></script>
 </body>
 </html>
