@@ -1,6 +1,24 @@
 /* styles.css — International Society of Haters */
 
+/* TOP BANNER IMAGE STYLES */
+.top-banner {
+  width: 100%;
+  text-align: center;
+  background: #000; /* fallback if banner isn't as wide as the screen */
+}
+
+.top-banner img {
+  width: 100%;
+  height: auto;      /* preserves true aspect ratio */
+  max-height: 300px; /* prevents giant vertical banner on mobile */
+  object-fit: contain; /* shows entire image without cropping */
+  display: block;
+  margin: 0 auto;
+}
+
+
 /* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +38,7 @@ body {
 .hero {
   text-align: center;
   padding: 4rem 1.5rem 3rem;
-  background: linear-gradient(135deg, #ff0055, #ff8a00);
+/*  background: linear-gradient(135deg, #ff0055, #ff8a00);*/
   color: #fff;
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
